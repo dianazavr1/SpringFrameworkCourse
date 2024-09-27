@@ -12,12 +12,12 @@
           class="SpringProject.ClassicalMusic">
     </bean>
     <bean id = "musicPlayer"
-          class = "SpringProject.MusicPlayer">
+          class = "SpringProject.MusicPlayer"
+            scope="prototype">
+
        <property name="music" ref="musicBean"/>
         <property name="name" value="${musicPlayer.name}"/>
         <property name="volume" value="${musicPlayer.volume}"/>
-
-
     </bean>
 
 
