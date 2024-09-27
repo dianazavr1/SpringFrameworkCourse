@@ -9,7 +9,11 @@
 
     <bean id="musicBean"
           class="SpringProject.ClassicalMusic">
-
     </bean>
+    <bean id = "musicPlayer"
+          class = "SpringProject.MusicPlayer">
+        <constructor-arg ref="musicBean"/>
+    </bean>
+
 
 </beans>
