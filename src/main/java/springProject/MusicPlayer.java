@@ -1,4 +1,4 @@
-package SpringProject;
+package springProject;
 
 public class MusicPlayer {
     private Music music;
